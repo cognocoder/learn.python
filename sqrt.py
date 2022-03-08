@@ -1,9 +1,17 @@
 
 from math import *
 
-userdata = input(" · √")
-decimal = float(userdata)
-value = sqrt(decimal)
+data = []
 
-print("   √" + str(decimal) + " = " + str(value))
+while True:
+    userdata = input(" · √")
+    dec = float(userdata)
+    
+    if dec < 0:
+        break
+
+    res = sqrt(dec)
+    data.append(res)
+    
+    print("   √" + str(dec) + " = " + str(res))
 
