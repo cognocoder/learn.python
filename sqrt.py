@@ -1,9 +1,9 @@
 
 from math import *
 
-userdata = input("Enter a positive numerical value: ")
+userdata = input(" · √")
 decimal = float(userdata)
 value = sqrt(decimal)
 
-print("The square root of " + str(decimal) + " is " + str(value))
+print("   √" + str(decimal) + " = " + str(value))
 
